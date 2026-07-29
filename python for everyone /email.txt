@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+
+	<script src="/app/ip12p.js"></script>
+	<script>var number =0; var language = "fr"; var pageSupportsCuts = false; var spellingHideMsg = "The spelling won't be shown. Press 'h' to display it again.";
+var spellingShowMsg = "The spelling will now be displayed.";
+var quizModeStartMsg = "Quiz mode has been activated. Click on the object that you hear pronounced. Place the object over the speaker to hear the object pronounced again.";
+var quizModeStopMsg = "Quiz mode has been deactivated.";
+var speakingQuizStartMsg = "Say the word of the selected object. Click anywhere on the image to advance. The voice that follows is a confirmation or correction.";
+var congratulationsMsg = "Congratulations! You completed the challenge.";
+var congratulations2Msg = "Good! You only missed one. Starting over..";
+var missedMsg = "You missed several. Starting over..";
+var startingOver = "Starting over..";
+var listenQuizMsg = "Click on the image that corresponds best to the word you hear.";
+var launchAudio = "Launch Audio";
+var clickMessageMobileTxt = "Tap objects in the image to hear the words. Then try the challenges.";
+var clickMessageDesktopTxt = "Click once to enable sound. Hover over objects to hear the words. Then try the challenges.";
+var clickMessageExtraMobileTxt = "Tap words and phrases to hear how they’re pronounced.";
+var speakingTutorialLine1Txt = "Say the word for the highlighted object";
+var speakingTutorialLine2Txt = "If your voice is recognized, the next word will play automatically";
+var speakingTutorialLine3Txt = "You can always click the image to continue";
+var speakingNoSpeechLine1Txt = "Say the word for the highlighted object.";
+var speakingNoSpeechLine2Txt = "Tap the image to continue.";
+var listeningTutorialLine1Txt = "Listen to the word and click the matching object.";
+var listeningTutorialLine2Txt = "If you miss it, you'll hear it again";
+var listeningTutorialLine3Txt = "This is practice — take your time";
+var clickMessageExtraDesktopTxt = "Click once to enable sound. Hover over words and phrases to hear how they’re pronounced.";
+var login = "Login";
+var savedWords = "Saved Words";
+var logout = "Sign Out";
+var target= "en";var difficulty="Difficulty";
+var spelling="Show Spelling	";
+var beginner="Beginner";
+var intermediate="Intermediate";
+var advanced="Advanced";
+var superAdvanced="Advanced";
+var showOffensiveContent="Show Potentially Offensive Entries";
+var setVolumeTo="Set Volume To";
+var showAnimationText="Enable Image Selection Animation	";
+var practiceListening="Listening Challenge";
+var practiceSpeaking="Speaking Challenge";
+var saveToAccount="Save to Account";
+var menu = [];</script>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles-new/mdc.css" type="text/css" />
+<link rel="stylesheet" href="/styles-new/ip8f.css" type="text/css" />
+
+
+<style>
+* {
+    -webkit-user-select: none;
+}
+#control {
+    max-width: 890px;
+    margin: auto;
+}
+.pictorial{
+	font-size: 280%;
+	margin: 20px;
+	padding: 0px;
+	color:#0000ff; 
+	display:inline-block;
+	text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+    user-select: none;
+}
+.pictorial:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);	
+	transform: scale(1.05);	
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+	
+	
+}
+#content {
+	max-width:940px; 
+	margin:auto;
+	margin-top:40px;
+}
+@media (max-width: 684px) {
+	#content {
+	margin-top:20px;
+	clear:both;
+	}
+	.pictorial{
+	padding: 10px;
+	margin: 6px;
+	font-size: 230%;
+	}
+}
+
+</style>
+
+
+<script type="application/ld+json">{"@context": "http://schema.org", 
+"@type": "BreadcrumbList", 
+"itemListElement": [{"@type": "ListItem" , "position": 1, "item": {"@id": "http://www.languageguide.org/","name": "Languageguide.org"}}, {"@type": "ListItem" , "position": 2, "item": {"@id": "http://www.languageguide.org/french/","name": "French"}}, {"@type": "ListItem" , "position": 3, "item": {"@id": "http://www.languageguide.org/french/vocabulary/","name": "Vocabulary"}}]}</script>
+<title>The French Alphabet</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-language" content="en" />
+<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />
+<meta name="description" content="Practice the French alphabet. Place your cursor over a letter to hear it pronounced aloud, then quiz yourself by activating 'quiz mode'." />
+<script type="text/javascript">var times = new Array(1.18, 2.03, 3.07, 4.17, 5.08, 5.91, 6.94, 8.05, 9.11, 9.96, 11.06, 11.92, 12.9, 13.91, 15.02, 15.81, 16.55, 17.39, 18.38, 19.52, 20.31, 21.12, 22.12, 23.45, 24.55, 25.79, 27.46, 30.48, 33.72, 35.5, 36.66, 38.98, 40.7, 41.85, 44.22, 45.86, 49.06, 52.18, 54.53, 56.01);
+var hasDeactivatedQuizElements  = true;
+var deactivatedQuizElements = [29, 32]
+var hasDifficulties = true;
+var language = "fr";
+var lgname = "alpha"
+var i=[26, 27, 38];
+var a=[28, 30, 31, 33, 34, 35, 36, 37];
+</script>
+</head>
+<body>
+<header id="header" class="mdc-top-app-bar mdc-top-app-bar--dense lg">
+    <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <object data="/images/category_index/earth.svg" type="image/svg+xml" width="30" height="30"></object>
+            <div id="site-title" class="mdc-top-app-bar__title">
+                <a href="/" id="siteLogo">LanguageGuide.org</a> &bull;
+                <a href="/french/vocabulary/">French Visual Vocabulary</a>
+            </div>
+        </section>
+        <section id="right-header" class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" >
+            <button id="settings" class="mdc-icon-button material-icons" onclick="launchPreferences()">settings</button>
+        </section>
+    </div>
+</header>
+<div id="control">
+	<div class="header-image"><div id="heading" class='hover_title' onMouseOver="playSound(-1)">L'alphabet</div>
+	<div class="header-translation">(The Alphabet)</div>
+	</div>
+	<div class="actions">
+         <button id="speak" class="mdc-button mdc-button--raised accent" onclick="speakToggle()">
+            <span class="mdc-button__label">
+              Speaking Challenge
+            </span>
+        </button>
+         <button id="listen" class="mdc-button mdc-button--raised accent" onclick="listenToggle()">
+            <span class="mdc-button__label">
+			Listening Challenge
+            </span>
+        </button>
+	</div>
+    <audio id="player"><source src="/snd/fr/alpha.m4a" /><source src="/snd/fr/alpha.ogg" type="audio/ogg" />Whoops, we thought your browser supported HTML5 audio and it doesn't. <a href="/user/report.jsp">Click here</a> to report the issue.</audio>
+
+</div>
+<div id="content">
+<div class="pictorial" id="0">a</div> 
+  <div class="pictorial" id="1">b</div> <div class="pictorial" id="2">c</div> 
+  <div class="pictorial" id="3">d</div> <div class="pictorial" id="4">e</div> 
+  <div class="pictorial" id="5">f</div> <div class="pictorial" id="6">g</div> 
+  <div class="pictorial" id="7">h</div> <div class="pictorial" id="8">i</div> 
+  <div class="pictorial" id="9">j</div> <div class="pictorial" id="10">k</div> 
+  <div class="pictorial" id="11">l</div> <div class="pictorial" id="12">m</div> 
+  <div class="pictorial" id="13">n</div> 
+  
+<div class="pictorial" id="14">
+  o</div> <div class="pictorial" id="15">p</div> 
+  <div class="pictorial" id="16">q</div> <div class="pictorial" id="17">r</div> 
+  <div class="pictorial" id="18">s</div> <div class="pictorial" id="19">t</div> 
+  <div class="pictorial" id="20">u</div> <div class="pictorial" id="21">v</div> 
+  <div class="pictorial" id="22">w</div> <div class="pictorial" id="23">x</div> 
+  <div class="pictorial" id="24">y</div> <div class="pictorial" id="25">z</div> 
+  </p>
+  <p style="margin-top: 30px">
+<div class="pictorial" id="26">&eacute;</div> <div class="pictorial" id="27">&egrave;</div><div class="pictorial" id="38">&ccedil;</div></p>
+  <p><div class="pictorial" id="28">&euml;</div>  <div class="pictorial" id="30">&icirc;</div> <div class="pictorial" id="31">&iuml;</div> <!--<div class="pictorial" id="29">&igrave;</div><div class="pictorial" id="32">&ograve;</div>--> <div class="pictorial" id="33">&ocirc;</div> <div class="pictorial" id="34">&ouml;</div> <div class="pictorial" id="35">&ugrave;</div> <div class="pictorial" id="36">&agrave;</div> <div class="pictorial" id="37">&acirc;</div>      
+  </div>
+
+<div id="context_menu" class="pop_up" ></div>
+
+</body>
+</html>
